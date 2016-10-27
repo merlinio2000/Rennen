@@ -17,10 +17,4 @@ class Participant
 	public int		getCategory()	{return category;}
 	public String	getName()		{return name;	 }
 	public String	getNameNr()		{return nameNr;  }
-	
-	public static void main(String[] args)
-	{
-		System.out.println("Hello World!");
-	}
-	
 }
