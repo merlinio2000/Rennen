@@ -13,9 +13,9 @@ class Participant
 		this.nameNr = s[3];
 	}
 	
-	public int		getStartNr()	{return startNr; }
-	public int		getCategory()	{return category;}
-	public int		getName()		{return name;	 }
+	public int	getStartNr()	{return startNr; }
+	public int	getCategory()	{return category;}
+	public int	getName()		{return name;	 }
 	public String	getNameNr()		{return nameNr;  }
 	
 }
