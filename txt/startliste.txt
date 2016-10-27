@@ -10,7 +10,7 @@
  61	1	Ammann
  64	1	Stauber
  70	1	Bamberger
- 82	1	Wölfle 2
+ 82	1	WÃ¶lfle 2
  85	1	Bolz
  88	1	Strausak
  91	1	Oberholzer
@@ -48,14 +48,14 @@
 241	3	Trottmann 2
 253	3	Togni
 256	3	Zehnder
-259	3	Brechbühl
+259	3	BrechbÃ¼hl
 262	3	Reolon 2
-265	3	Künzler
+265	3	KÃ¼nzler
 268	3	Oberholzer
   2	1	Bruppacher 2
   5	1	Haas
   8	1	Pfammatter
- 11	1	Gähwiler
+ 11	1	GÃ¤hwiler
  14	1	Arnold
  23	1	Temperli
  26	1	Arnold
@@ -76,14 +76,14 @@
 116	2	Ender 1
 119	2	Hirzel 1 
 122	2	Pfammatter
-131	2	Gähwiler
+131	2	GÃ¤hwiler
 134	2	Bucher
-137	2	Hässig 1
-140	2	Müller
+137	2	HÃ¤ssig 1
+140	2	MÃ¼ller
 143	2	Blaser 1
 146	2	Bachmann
 161	2	Stehli
-164	2	Häuselmann
+164	2	HÃ¤uselmann
 167	2	Trottmann 1
 170	2	Spillmann 2
 173	2	Stoll
@@ -100,7 +100,7 @@
 230	3	Leutenegger 1
 233	3	Blust
 236	3	Eckard
-239	3	Müller
+239	3	MÃ¼ller
 242	3	Brubpacher 1
 254	3	Clavadetscher
 257	3	Zeller 1
@@ -120,9 +120,9 @@
  63	1	Liebi
  66	1	Boller
  69	1	Engler
- 81	1	Wölfle 1
+ 81	1	WÃ¶lfle 1
  84	1	Zehnder
- 87	1	Rütschi
+ 87	1	RÃ¼tschi
  90	1	Bernhard
  93	1	Iten 1
 102	2	Bochsler
@@ -134,7 +134,7 @@
 123	2	Wietlisbach
 132	2	Neuer
 135	2	Felzmann 1
-138	2	Hässig 2
+138	2	HÃ¤ssig 2
 141	2	Amstein
 144	2	Blaser 2
 162	2	Huber
