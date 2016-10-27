@@ -9,8 +9,8 @@ class Participant
 	{
 		this.startNr	= Integer.parseInt(s[0]);
 		this.category	= Integer.parseInt(s[1]);
-		this.name		= s[2];
-		this.nameNr = s[3];
+		this.name	= s[2];
+		this.nameNr 	= s[3];
 	}
 	
 	public int	getStartNr()	{return startNr; }
