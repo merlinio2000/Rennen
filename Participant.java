@@ -1,8 +1,8 @@
 class Participant
 {
-	private int startNr		  =  0;
+	private int startNr	  =  0;
 	private int category	  =  0;
-	private String name		  = "";
+	private String name	  = "";
 	private String nameNr 	  = "";
   
 	public Participant(String[] s)
