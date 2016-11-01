@@ -39,7 +39,7 @@ public class ParseFile {
 					e.printStackTrace();
 				}
 			}
-			else if (fileName == "txt/messresultate")
+			if (fileName == "txt/messresultate")
 			{
 				//Use Java 8 Streams and lambdas for easy looping and try-with clause to ensure the file handle is being closed
 				try (Stream<String> stream = Files.lines(Paths.get(fileName))) 
@@ -58,7 +58,7 @@ public class ParseFile {
 		public Participant[] getParticipants()
 		{
 			//Test whether the array is empty
-			if(participants.get(0) != null)
+			if(participants.size() != 0)
 				return participants.toArray(new Participant[0]);
 			return null;
 		}
@@ -70,7 +70,7 @@ public class ParseFile {
 		public Result[] getResults()
 		{
 			//Test whether the array is empty
-			if(results.get(0) != null)
+			if(results.size() != 0)
 				return results.toArray(new Result[0]);
 			return null;
 		}
