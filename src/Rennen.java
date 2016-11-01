@@ -4,13 +4,12 @@
  * @version 1.0
  */
 public class Rennen 
-{
-	private Participant[] participants;
-	
+{	
 	public static void main(String[] args) 
 	{
 		ParseFile startlist = new ParseFile("txt/startliste.txt");
 		startlist.parse();
+		Participant[] participants = startlist.getParticipants();
 	}
 
 }

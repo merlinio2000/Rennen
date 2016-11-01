@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.stream.Stream;
 
 /**
@@ -12,7 +13,7 @@ import java.util.stream.Stream;
 public class ParseFile {
 		private String fileName = "";
 		//The array to store the values in
-		private Participant[] participants = new Participant[300];
+		private ArrayList<Participant> participants = new ArrayList<Participant>(300);
 		/**
 		 * Constructor for the class
 		 * @param filename		the name of the file to parse
@@ -30,7 +31,7 @@ public class ParseFile {
 			//Use Java 8 Streams and lambdas for easy looping and try-with clause to ensure the file handle is being closed
 			try (Stream<String> stream = Files.lines(Paths.get(fileName))) 
 			{
-		        stream.forEach(System.out::println);
+		        stream.forEach((String s) -> participants.add(new Participant(s.split("\\t"))));
 			} catch (IOException e) 
 			{
 				 e.printStackTrace();
@@ -43,8 +44,8 @@ public class ParseFile {
 		public Participant[] getParticipants()
 		{
 			//Test whether the array is empty
-			if(participants[0] != null)
-				return participants;
+			if(participants.get(0) != null)
+				return participants.toArray(new Participant[0]);
 			return null;
 		}
 }
