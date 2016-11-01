@@ -27,14 +27,21 @@ public class ParseFile {
 		 */
 		public void parse()
 		{
-			//Use Java 8 Streams and lambdas for easy looping and try-with clause to ensure the file handle is being closed
-			try (Stream<String> stream = Files.lines(Paths.get(fileName))) 
+			if (fileName == "txt/startliste.txt")
 			{
-		        stream.forEach((String s) -> participants.add(new Participant(s.split("\\t"))));
-			} catch (IOException e) 
-			{
-				 e.printStackTrace();
+				//Use Java 8 Streams and lambdas for easy looping and try-with clause to ensure the file handle is being closed
+				try (Stream<String> stream = Files.lines(Paths.get(fileName))) 
+				{
+					stream.forEach((String s) -> participants.add(new Participant(s.split("\\t"))));
+				} catch (IOException e) 
+				{
+					e.printStackTrace();
+				}
 			}
+			else if (fileName == "txt/messresultate")
+			{
+				//TODO Implement helper class and create its list
+			}		
 		}
 		/**
 		 * get the participants
