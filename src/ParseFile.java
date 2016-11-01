@@ -17,9 +17,9 @@ public class ParseFile {
 		 * Constructor for the class
 		 * @param filename		the name of the file to parse
 		 */
-		public ParseFile(String filename)
+		public ParseFile(String _fileName)
 		{
-			this.fileName = fileName;
+			this.fileName = _fileName;
 		}
 		
 		/**
