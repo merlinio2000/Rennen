@@ -39,7 +39,7 @@ public class ParseFile {
 					e.printStackTrace();
 				}
 			}
-			if (fileName == "txt/messresultate")
+			if (fileName == "txt/messresultate.txt")
 			{
 				//Use Java 8 Streams and lambdas for easy looping and try-with clause to ensure the file handle is being closed
 				try (Stream<String> stream = Files.lines(Paths.get(fileName))) 
