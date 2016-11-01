@@ -13,6 +13,7 @@ public class ParseFile {
 		private String fileName = "";
 		//The array to store the values in
 		private ArrayList<Participant> participants = new ArrayList<Participant>(300);
+		private ArrayList<Result>	   results		= new ArrayList<Result>(300);
 		/**
 		 * Constructor for the class
 		 * @param filename		the name of the file to parse
@@ -40,7 +41,14 @@ public class ParseFile {
 			}
 			else if (fileName == "txt/messresultate")
 			{
-				//TODO Implement helper class and create its list
+				//Use Java 8 Streams and lambdas for easy looping and try-with clause to ensure the file handle is being closed
+				try (Stream<String> stream = Files.lines(Paths.get(fileName))) 
+				{
+					stream.forEach((String s) -> results.add(new Result(s.split("\\t"))));
+				} catch (IOException e) 
+				{
+					e.printStackTrace();
+				}
 			}		
 		}
 		/**
@@ -52,6 +60,18 @@ public class ParseFile {
 			//Test whether the array is empty
 			if(participants.get(0) != null)
 				return participants.toArray(new Participant[0]);
+			return null;
+		}
+		
+		/**
+		 * get the results
+		 * @return		the Results as an array or null if the array is empty
+		 */
+		public Result[] getResults()
+		{
+			//Test whether the array is empty
+			if(results.get(0) != null)
+				return results.toArray(new Result[0]);
 			return null;
 		}
 }

@@ -19,4 +19,15 @@ public class Result
 		startNr = Integer.parseInt(s[0]);
 		finished = LocalTime.parse(s[1]);
 	}
+	
+	/**
+	 * get the start number
+	 * @return  the start number
+	 */
+	public int		getStartNr()	{return startNr; }
+	/**
+	 * get the finish time
+	 * @return  the finish time
+	 */
+	public LocalTime getFinished()	{return finished;}
 }
