@@ -3,10 +3,11 @@
  * @author Merlin Maggi, Dogukan Kabagoez, Florian Siegrist
  * @version 1.0
  */
-public class Rennen {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class Rennen 
+{
+	private Participant[] participants;
+	public static void main(String[] args) 
+	{
 
 	}
 
