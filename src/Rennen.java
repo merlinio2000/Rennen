@@ -6,9 +6,10 @@
 public class Rennen 
 {
 	private Participant[] participants;
+	
 	public static void main(String[] args) 
 	{
-
+		
 	}
 
 }

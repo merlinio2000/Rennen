@@ -1,4 +1,8 @@
 import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.stream.Stream;
 
 /**
  * Helper class to parse the file with the values
@@ -6,7 +10,7 @@ import java.io.File;
  * @version 1.0
  */
 public class ParseFile {
-		private String filename = "";
+		private String fileName = "";
 		//The array to store the values in
 		private Participant[] participants = new Participant[300];
 		/**
@@ -15,7 +19,7 @@ public class ParseFile {
 		 */
 		public ParseFile(String filename)
 		{
-			this.filename = filename;
+			this.fileName = fileName;
 		}
 		
 		/**
@@ -23,7 +27,14 @@ public class ParseFile {
 		 */
 		public void Parse()
 		{
-			
+			//Use Java 8 Streams and lambdas for easy looping and try-with clause to ensure the file handle is beeing closed
+			try (Stream<String> stream = Files.lines(Paths.get(fileName))) 
+			{
+		        stream.forEach(System.out::println);
+			} catch (IOException e) 
+			{
+				 e.printStackTrace();
+			}
 		}
 		/**
 		 * get the participants
