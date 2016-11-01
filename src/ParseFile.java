@@ -58,7 +58,7 @@ public class ParseFile {
 		public Participant[] getParticipants()
 		{
 			//Test whether the array is empty
-			if(participants.size() != 0)
+			if(!(participants.isEmpty()))
 				return participants.toArray(new Participant[0]);
 			return null;
 		}
@@ -70,7 +70,7 @@ public class ParseFile {
 		public Result[] getResults()
 		{
 			//Test whether the array is empty
-			if(results.size() != 0)
+			if(!(results.isEmpty()))
 				return results.toArray(new Result[0]);
 			return null;
 		}
