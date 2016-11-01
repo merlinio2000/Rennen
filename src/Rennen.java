@@ -9,7 +9,8 @@ public class Rennen
 	
 	public static void main(String[] args) 
 	{
-		
+		ParseFile startlist = new ParseFile("txt/startliste.txt");
+		startlist.parse();
 	}
 
 }

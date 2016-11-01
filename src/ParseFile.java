@@ -25,7 +25,7 @@ public class ParseFile {
 		/**
 		 * Parse the file and store the values
 		 */
-		public void Parse()
+		public void parse()
 		{
 			//Use Java 8 Streams and lambdas for easy looping and try-with clause to ensure the file handle is being closed
 			try (Stream<String> stream = Files.lines(Paths.get(fileName))) 
