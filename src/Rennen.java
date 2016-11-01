@@ -9,9 +9,7 @@ public class Rennen
 	{
 		ParseFile startlist = new ParseFile("txt/startliste.txt");
 		startlist.parse();
-		Participant[] participants = startlist.getParticipants();
-		for (Participant p: participants)
-			System.out.println(p.getStartNr() + p.getName() + p.getCategory() + p.getNumber());
+		Participant[] participants = startlist.getParticipants();	
 	}
 
 }

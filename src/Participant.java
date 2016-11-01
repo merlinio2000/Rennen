@@ -8,7 +8,7 @@ class Participant
 	private int startNr	  =  0;
 	private int category  =  0;
 	private String name	  = "";
-	private String number = "";
+	private String nameNr = "";
   
 	/**
 	 * constructs an instance and parses the strings into the correct datatype
@@ -20,9 +20,7 @@ class Participant
 		this.category	= Integer.parseInt(s[1].trim());
 		this.name		= s[2];
 		if (s.length == 4 && s[3] != null)
-			this.number = s[3];
-		else
-			this.number = "";
+			this.nameNr = s[3];
 	}
 	/**
 	 * get the start number
@@ -43,5 +41,5 @@ class Participant
 	 * get the number
 	 * @return  the number
 	 */
-	public String	getNumber()		{return number;  }
+	public String	getNameNr()		{return  nameNr;  }
 }
