@@ -1,3 +1,8 @@
+/**
+ * Helper class to store the values from the file in an array
+ * @author Merlin Maggi, Dogukan Kabagoez, Florian Siegrist
+ * @version 1.0
+ */
 class Participant
 {
 	private int startNr	  =  0;
