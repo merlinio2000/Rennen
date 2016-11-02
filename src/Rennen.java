@@ -1,4 +1,7 @@
+//Hallo
 import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Main class with the program logic
@@ -24,10 +27,11 @@ public class Rennen
 					pr.add(new ParticipantResult(p, r));
 			}
 		}
-		for (ParticipantResult p: pr)
+		List<ParticipantResult> men = pr.stream().filter(p -> p.getCategory() == 1).collect(Collectors.toList());
+		/*for (ParticipantResult p: pr)
 		{
 			System.out.println(p.getStartNr() + " : " + p.getRStartNr() + " --- " + p.getCategory() + " --- " + p.getName() + " : " + p.getNameNr() + " --- " + p.getFinished());
-		}
+		}*/
 	}
 
 }
