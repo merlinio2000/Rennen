@@ -27,6 +27,8 @@ public class Rennen
 			}
 		}
 		List<ParticipantResult> men = pr.stream().filter(p -> p.getCategory() == 1).collect(Collectors.toList());
+		List<ParticipantResult> women = pr.stream().filter(p -> p.getCategory() == 2).collect(Collectors.toList());
+		List<ParticipantResult> prof = pr.stream().filter(p -> p.getCategory() == 3).collect(Collectors.toList());
 		/*for (ParticipantResult p: pr)
 		{
 			System.out.println(p.getStartNr() + " : " + p.getRStartNr() + " --- " + p.getCategory() + " --- " + p.getName() + " : " + p.getNameNr() + " --- " + p.getFinished());
