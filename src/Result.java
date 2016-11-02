@@ -1,7 +1,7 @@
 import java.time.LocalTime;
 
 /**
- * Helper class to store the results in an array
+ * helper class to store the results in an array
  * @author Merlin Maggi, Dogukan Kabagoez, Florian Siegrist
  * @version 1.0
  */
@@ -12,7 +12,7 @@ public class Result
 	
 	/**
 	 * constructs an instance and parses the strings into the correct datatype
-	 * @param s		the values as an string array
+	 * @param s		the values as a string array
 	 */
 	public Result(String[] s)
 	{

@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Main class with the program logic
+ * main class with the program logic
  * @author Merlin Maggi, Dogukan Kabagoez, Florian Siegrist
  * @version 1.0
  */

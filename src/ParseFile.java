@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.stream.Stream;
 
 /**
- * helper class to parse the file with the values
+ * helper class that parses the file with the values
  * @author Merlin Maggi, Dogukan Kabagoez, Florian Siegrist
  * @version 1.0
  */

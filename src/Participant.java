@@ -11,7 +11,7 @@ class Participant
 	private String nameNr = "";
   
 	/**
-	 * constructs an instance and parses the strings into the correct datatype
+	 * constructs an instance and parses the strings into the correct data type
 	 * @param s		the values as an string array
 	 */
 	public Participant(String[] s)

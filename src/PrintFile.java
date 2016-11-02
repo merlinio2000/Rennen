@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 import java.util.List;
 
 /**
- * Helper class to print the results into a file
+ * helper class to print the results into a file
  * @author Merlin Maggi, Dogukan Kabagoez, Florian Siegrist
  * @version 1.0
  */
@@ -22,7 +22,10 @@ public class PrintFile
 	{
 		this.fileName = _fileName;
 	}
-	
+	/**
+	 * prints the contents of the list in the right format on a file
+	 * @param p		the list to be printed
+	 */
 	public void put(List<ParticipantResult> p)
 	{
 		Path path = Paths.get(fileName);

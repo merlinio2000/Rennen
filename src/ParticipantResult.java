@@ -2,7 +2,7 @@ import java.time.LocalTime;
 import java.time.temporal.ChronoUnit;
 
 /**
- * Helper class to merge the Participants and results
+ * helper class that merges the Participants and results
  * @author Merlin Maggi, Dogukan Kabagoez, Florian Siegrist
  * @version 1.0
  */
