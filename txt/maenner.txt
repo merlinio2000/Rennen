@@ -1,0 +1,60 @@
+1	176	00:45:15	Rebsamen	
+2	165	00:46:44	Pongracz	
+3	163	00:46:47	Feusi	
+4	174	00:47:09	Amschwand	1
+5	171	00:47:32	Senft	1
+6	183	00:48:08	Spreng	
+7	177	00:48:14	Baumgartner	
+8	146	00:48:24	Bachmann	
+9	167	00:49:13	Trottmann	1
+10	162	00:49:15	Huber	
+11	132	00:49:35	Neuer	
+12	164	00:50:22	Häuselmann	
+13	101	00:50:34	Hutter	
+14	133	00:50:57	Weber	
+15	140	00:51:05	Müller	
+16	169	00:51:09	Spillmann	1
+17	137	00:51:14	Hässig	1
+18	134	00:51:19	Bucher	
+19	115	00:52:04	Vogt	
+20	123	00:52:06	Wietlisbach	
+21	103	00:52:26	Vogler	
+22	166	00:53:10	Temperli	
+23	145	00:53:18	Gisler	
+24	118	00:53:24	Achermann	
+25	114	00:53:28	Boller	
+26	139	00:53:35	Hugentobler	
+27	173	00:53:49	Stoll	
+28	143	00:53:54	Blaser	1
+29	141	00:54:03	Amstein	
+30	131	00:54:19	Gähwiler	
+31	116	00:54:22	Ender	1
+32	170	00:54:28	Spillmann	2
+33	119	00:54:32	Hirzel	1 
+34	175	00:54:34	Amschwand	2
+35	178	00:54:37	Haupt	
+36	107	00:55:06	Lutz	
+37	104	00:55:08	Tobler	1
+38	142	00:55:21	Fehr	
+39	168	00:55:27	Trottmann	2
+40	181	00:55:28	Merotto	
+41	180	00:56:19	Huber	
+42	122	00:56:20	Pfammatter	
+43	113	00:56:22	Haas	
+44	109	00:56:28	Enz	1
+45	102	00:56:31	Bochsler	
+46	161	00:57:21	Stehli	
+47	138	00:57:36	Hässig	2
+48	135	00:57:38	Felzmann	1
+49	111	00:57:51	Glogg	1
+50	121	00:57:53	Tiefenauer	
+51	144	00:59:17	Blaser	2
+52	105	00:59:35	Tobler	2
+53	172	01:00:15	Senft	2
+54	179	01:00:30	Gallmann	
+55	120	01:03:13	Hirzel	2
+56	182	01:03:23	Bosshardt	
+57	110	01:03:31	Enz	2
+58	117	01:04:42	Ender	2
+59	106	01:04:56	Bruppacher	
+60	112	01:05:21	Glogg	2

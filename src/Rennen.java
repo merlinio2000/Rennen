@@ -27,22 +27,32 @@ public class Rennen
 			}
 		}
 		// create 3 lists with the different categories
-		List<ParticipantResult> men = pr.stream().filter(p -> p.getCategory() == 1).collect(Collectors.toList());
-		List<ParticipantResult> women = pr.stream().filter(p -> p.getCategory() == 2).collect(Collectors.toList());
+		List<ParticipantResult> women = pr.stream().filter(p -> p.getCategory() == 1).collect(Collectors.toList());
+		List<ParticipantResult> men = pr.stream().filter(p -> p.getCategory() == 2).collect(Collectors.toList());
 		List<ParticipantResult> prof = pr.stream().filter(p -> p.getCategory() == 3).collect(Collectors.toList());
 		
 		//sort the list by the time difference ascending
-		men.sort((p1, p2) -> Long.compare(p1.getDifference(), p2.getDifference()));
 		women.sort((p1, p2) -> Long.compare(p1.getDifference(), p2.getDifference()));
+		men.sort((p1, p2) -> Long.compare(p1.getDifference(), p2.getDifference()));
 		prof.sort((p1, p2) -> Long.compare(p1.getDifference(), p2.getDifference()));
 		
-		//sort the list for namen.txt by name asc
+		//sort the participants by time difference ascending and set the rank of the participants
+		pr.sort((p1, p2) -> Long.compare(p1.getDifference(), p2.getDifference()));
+		for (int i = 0; i < pr.size(); ++i)
+			pr.get(i).setRank(i+1);
+		
+		//sort the list for namen.txt by name ascending
 		pr.sort((p1, p2) -> p1.getName().compareTo(p2.getName()));
 		
-		/*for (ParticipantResult p: pr)
-		{
-			System.out.println(p.getStartNr() + " : " + p.getRStartNr() + " --- " + p.getCategory() + " --- " + p.getName() + " : " + p.getNameNr() + " --- " + p.getFinished());
-		}*/
+		//Write the lists to files
+		PrintFile frauen = new PrintFile("txt/frauen.txt");
+		PrintFile maenner= new PrintFile("txt/maenner.txt");
+		PrintFile profi  = new PrintFile("txt/profi.txt");
+		PrintFile namen  = new PrintFile("txt/namen.txt");
+		frauen.put(women);
+		maenner.put(men);
+		profi.put(prof);
+		namen.put(pr);
 	}
 
 }

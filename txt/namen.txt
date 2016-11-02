@@ -1,0 +1,163 @@
+7	Achermann		Frauen	16	00:38:01
+118	Achermann		Männer	73	00:53:24
+61	Ammann		Frauen	40	00:44:54
+229	Ammann		Profis	140	01:23:56
+174	Amschwand	1	Männer	50	00:47:09
+175	Amschwand	2	Männer	83	00:54:34
+13	Amstein		Frauen	19	00:38:39
+141	Amstein		Männer	78	00:54:03
+14	Arnold		Frauen	2	00:31:29
+26	Arnold		Frauen	9	00:34:38
+146	Bachmann		Männer	55	00:48:24
+57	Bagattini		Frauen	43	00:45:19
+213	Bagattini		Profis	123	01:19:40
+70	Bamberger		Frauen	36	00:42:41
+177	Baumgartner		Männer	54	00:48:14
+90	Bernhard		Frauen	26	00:40:02
+143	Blaser	1	Männer	77	00:53:54
+144	Blaser	2	Männer	100	00:59:17
+52	Bloch		Frauen	45	00:45:42
+205	Bloch		Profis	134	01:22:17
+233	Blust		Profis	144	01:25:36
+102	Bochsler		Männer	94	00:56:31
+223	Boegli		Profis	156	01:30:25
+66	Boller		Frauen	64	00:51:11
+114	Boller		Männer	74	00:53:28
+235	Boller	2	Profis	137	01:23:17
+234	Boller	1	Profis	143	01:24:08
+85	Bolz		Frauen	34	00:41:25
+28	Bosshardt		Frauen	7	00:33:12
+182	Bosshardt		Männer	105	01:03:23
+259	Brechbüh	l	Profis	126	01:20:03
+243	Brubpacher	2	Profis	121	01:19:25
+242	Brubpacher	1	Profis	150	01:27:37
+1	Bruppacher	1	Frauen	5	00:32:59
+2	Bruppacher	2	Frauen	10	00:34:59
+106	Bruppacher		Männer	108	01:04:56
+12	Bucher		Frauen	6	00:33:04
+134	Bucher		Männer	66	00:51:19
+238	Camenzind		Profis	125	01:20
+254	Clavadetscher		Profis	113	01:16:28
+55	Doebeli		Frauen	44	00:45:36
+206	Doebeli		Profis	160	01:35:58
+65	Donze		Frauen	27	00:40:09
+236	Eckard		Profis	112	01:15:49
+116	Ender	1	Männer	80	00:54:22
+117	Ender	2	Männer	107	01:04:42
+69	Engler		Frauen	17	00:38:21
+109	Enz	1	Männer	93	00:56:28
+110	Enz	2	Männer	106	01:03:31
+15	Fehr		Frauen	3	00:32:14
+142	Fehr		Männer	87	00:55:21
+135	Felzmann	1	Männer	97	00:57:38
+21	Feusi	1	Frauen	14	00:37
+22	Feusi	2	Frauen	35	00:42:22
+163	Feusi		Männer	49	00:46:47
+53	Frei		Frauen	41	00:44:59
+207	Frei		Profis	138	01:23:22
+179	Gallmann		Männer	103	01:00:30
+145	Gisler		Männer	72	00:53:18
+111	Glogg	1	Männer	98	00:57:51
+112	Glogg	2	Männer	109	01:05:21
+131	Gähwiler		Männer	79	00:54:19
+5	Haas		Frauen	11	00:35:48
+113	Haas		Männer	92	00:56:22
+178	Haupt		Männer	84	00:54:37
+212	Heller		Profis	149	01:26:53
+119	Hirzel	1 	Männer	82	00:54:32
+120	Hirzel	2	Männer	104	01:03:13
+162	Huber		Männer	57	00:49:15
+180	Huber		Männer	90	00:56:19
+139	Hugentobler		Männer	75	00:53:35
+101	Hutter		Männer	60	00:50:34
+137	Hässig	1	Männer	65	00:51:14
+138	Hässig	2	Männer	96	00:57:36
+164	Häuselmann		Männer	59	00:50:22
+224	Inderbitzin	1	Profis	122	01:19:36
+225	Inderbitzin	2	Profis	135	01:22:23
+226	Inderbitzin	3	Profis	136	01:23:11
+93	Iten	1	Frauen	32	00:41:20
+94	Iten	2	Frauen	37	00:44:03
+260	Jakob		Profis	132	01:21:30
+214	Jost		Profis	157	01:30:58
+92	Kober		Frauen	31	00:41:10
+269	Kober		Profis	120	01:19:13
+201	Kohler		Profis	155	01:29:07
+265	Künzler		Profis	129	01:20:24
+54	Lauener		Frauen	52	00:47:44
+208	Lauener		Profis	148	01:26:44
+222	Lauffer		Profis	154	01:28:59
+62	Le Pape		Frauen	20	00:38:49
+83	Leuch		Frauen	67	00:51:52
+255	Leuch		Profis	124	01:19:53
+230	Leutenegger	1	Profis	131	01:21:03
+231	Leutenegger	2	Profis	162	01:39:32
+63	Liebi		Frauen	38	00:44:07
+232	Liebi		Profis	114	01:17:14
+209	Loosli	1	Profis	128	01:20:23
+210	Loosli	2	Profis	158	01:31:12
+4	Lutz	2	Frauen	18	00:38:36
+3	Lutz	1	Frauen	29	00:40:29
+107	Lutz		Männer	85	00:55:06
+86	Mattli		Frauen	25	00:39:53
+58	Meier	R.	Frauen	30	00:40:34
+216	Meier	W.	Profis	139	01:23:35
+29	Merotto		Frauen	21	00:38:52
+181	Merotto		Männer	89	00:55:28
+71	Murer		Frauen	28	00:40:16
+140	Müller		Männer	62	00:51:05
+239	Müller		Profis	116	01:17:58
+211	Naef		Profis	151	01:27:41
+132	Neuer		Männer	58	00:49:35
+227	Niggli	1	Profis	147	01:26:42
+228	Niggli	2	Profis	163	01:41:12
+91	Oberholzer		Frauen	39	00:44:47
+268	Oberholzer		Profis	119	01:18:59
+8	Pfammatter		Frauen	13	00:36:51
+122	Pfammatter		Männer	91	00:56:20
+165	Pongracz		Männer	48	00:46:44
+176	Rebsamen		Männer	42	00:45:15
+262	Reolon	2	Profis	110	01:15:44
+261	Reolon	1	Profis	111	01:15:45
+263	Reolon	3	Profis	146	01:26:11
+87	Rütschi		Frauen	22	00:39:19
+171	Senft	1	Männer	51	00:47:32
+172	Senft	2	Männer	102	01:00:15
+169	Spillmann	1	Männer	63	00:51:09
+170	Spillmann	2	Männer	81	00:54:28
+27	Spreng		Frauen	4	00:32:54
+183	Spreng		Männer	53	00:48:08
+252	Stalder		Profis	145	01:26:08
+64	Stauber		Frauen	33	00:41:22
+56	Stauber		Frauen	47	00:46:03
+161	Stehli		Männer	95	00:57:21
+24	Stoll		Frauen	8	00:33:18
+173	Stoll		Männer	76	00:53:49
+88	Strausak		Frauen	46	00:45:48
+23	Temperli		Frauen	1	00:30:36
+166	Temperli		Männer	71	00:53:10
+121	Tiefenauer		Männer	99	00:57:53
+104	Tobler	1	Männer	86	00:55:08
+105	Tobler	2	Männer	101	00:59:35
+253	Togni		Profis	133	01:21:57
+167	Trottmann	1	Männer	56	00:49:13
+168	Trottmann	2	Männer	88	00:55:27
+240	Trottmann	1	Profis	118	01:18:34
+241	Trottmann	2	Profis	152	01:27:56
+103	Vogler		Männer	70	00:52:26
+6	Vogt		Frauen	12	00:36:41
+115	Vogt		Männer	68	00:52:04
+133	Weber		Männer	61	00:50:57
+202	Weinmann	1	Profis	127	01:20:10
+203	Weinmann	2	Profis	161	01:39:01
+270	Widmer		Profis	115	01:17:16
+123	Wietlisbach		Männer	69	00:52:06
+221	Winkler		Profis	130	01:21
+267	Wipf		Profis	142	01:24:07
+81	Wölfle	1	Frauen	15	00:37:28
+84	Zehnder		Frauen	24	00:39:27
+256	Zehnder		Profis	159	01:31:20
+51	Zehntner		Frauen	23	00:39:22
+204	Zehntner		Profis	153	01:28:26
+257	Zeller	1	Profis	117	01:18:16
+258	Zeller	2	Profis	141	01:24:01

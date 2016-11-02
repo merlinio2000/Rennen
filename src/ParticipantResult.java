@@ -14,7 +14,9 @@ public class ParticipantResult
 	private String nameNr = "";
 	private int rStartNr  =  0;
 	private LocalTime finished = null;
+	private LocalTime timeTook = LocalTime.of(00, 00, 00);
 	private long difference    = 0;
+	private int rank	  =  0;
   
 	/**
 	 * constructs an instance and get the values from the arguments
@@ -33,13 +35,16 @@ public class ParticipantResult
 		switch(this.category)
 		{
 		case 1:
-			difference = ChronoUnit.SECONDS.between(LocalTime.of(14, 00, 00), finished);
+			this.difference = ChronoUnit.SECONDS.between(LocalTime.of(14, 00, 00), finished);
+			this.timeTook	= this.timeTook.plusSeconds(difference);
 			break;
 		case 2:
-			difference = ChronoUnit.SECONDS.between(LocalTime.of(14, 30, 00), finished);
+			this.difference = ChronoUnit.SECONDS.between(LocalTime.of(14, 30, 00), finished);
+			this.timeTook	= this.timeTook.plusSeconds(difference); 
 			break;
 		case 3:
-			difference = ChronoUnit.SECONDS.between(LocalTime.of(15, 00, 00), finished);
+			this.difference = ChronoUnit.SECONDS.between(LocalTime.of(15, 00, 00), finished);
+			this.timeTook	= this.timeTook.plusSeconds(difference); 
 			break;
 		}
 	}
@@ -76,8 +81,26 @@ public class ParticipantResult
 	public LocalTime getFinished()	{return finished;}
 	
 	/**
+	 * get the time took
+	 * @return  the time took
+	 */
+	public LocalTime getTimeTook()	{return timeTook;}
+	
+	/**
 	 * get the difference between start time of the category and the finish time
 	 * @return  the finish time
 	 */
 	public long		 getDifference()	{return difference;}
+	
+	/**
+	 * get the rank
+	 * @return  the rank
+	 */
+	public int 		getRank()			{return rank;}
+	
+	/**
+	 * sets the rank to the param
+	 * @param _rank  the new rank
+	 */
+	public void		setRank(int _rank)	{this.rank = _rank;}
 }
