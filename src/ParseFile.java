@@ -53,7 +53,7 @@ public class ParseFile {
 		}
 		/**
 		 * get the participants
-		 * @return		the participants as an array or null if the array is empty
+		 * @return		the participants as an arraylist or null if the array is empty
 		 */
 		public ArrayList<Participant> getParticipants()
 		{
@@ -65,7 +65,7 @@ public class ParseFile {
 		
 		/**
 		 * get the results
-		 * @return		the Results as an array or null if the array is empty
+		 * @return		the Results as an arraylist or null if the array is empty
 		 */
 		public ArrayList<Result> getResults()
 		{
