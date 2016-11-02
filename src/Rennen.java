@@ -14,8 +14,8 @@ public class Rennen
 		ArrayList<ParticipantResult> pr= new ArrayList<ParticipantResult>(300);
 		startlist.parse();
 		resultlist.parse();
-		Participant[] participants = startlist.getParticipants();
-		Result[]	  results	   = resultlist.getResults();
+		ArrayList<Participant> participants = startlist.getParticipants();
+		ArrayList<Result>	   results	   = resultlist.getResults();
 		for (Result r: results)
 		{
 			System.out.println(r.getStartNr() + " : " + r.getFinished().toString());

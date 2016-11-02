@@ -55,11 +55,11 @@ public class ParseFile {
 		 * get the participants
 		 * @return		the participants as an array or null if the array is empty
 		 */
-		public Participant[] getParticipants()
+		public ArrayList<Participant> getParticipants()
 		{
 			//Test whether the array is empty
 			if(!(participants.isEmpty()))
-				return participants.toArray(new Participant[0]);
+				return participants;
 			return null;
 		}
 		
@@ -67,11 +67,11 @@ public class ParseFile {
 		 * get the results
 		 * @return		the Results as an array or null if the array is empty
 		 */
-		public Result[] getResults()
+		public ArrayList<Result> getResults()
 		{
 			//Test whether the array is empty
 			if(!(results.isEmpty()))
-				return results.toArray(new Result[0]);
+				return results;
 			return null;
 		}
 }

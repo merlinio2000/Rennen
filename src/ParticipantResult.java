@@ -1,4 +1,5 @@
 import java.time.LocalTime;
+import java.time.temporal.ChronoUnit;
 
 /**
  * Helper class to merge the Participants and results
@@ -13,6 +14,7 @@ public class ParticipantResult
 	private String nameNr = "";
 	private int rStartNr  =  0;
 	private LocalTime finished = null;
+	private long difference    = 0;
   
 	/**
 	 * constructs an instance and get the values from the arguments
@@ -28,6 +30,18 @@ public class ParticipantResult
 			this.nameNr = p.getNameNr();
 		this.rStartNr = r.getStartNr();
 		this.finished = r.getFinished();
+		switch(this.category)
+		{
+		case 1:
+			difference = ChronoUnit.SECONDS.between(LocalTime.of(14, 00, 00), finished);
+			break;
+		case 2:
+			difference = ChronoUnit.SECONDS.between(LocalTime.of(14, 30, 00), finished);
+			break;
+		case 3:
+			difference = ChronoUnit.SECONDS.between(LocalTime.of(15, 00, 00), finished);
+			break;
+		}
 	}
 	/**
 	 * get the start number
@@ -60,4 +74,10 @@ public class ParticipantResult
 	 * @return  the finish time
 	 */
 	public LocalTime getFinished()	{return finished;}
+	
+	/**
+	 * get the difference between start time of the category and the finish time
+	 * @return  the finish time
+	 */
+	public long		 getDifference()	{return difference;}
 }
