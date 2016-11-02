@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * Main class with the program logic
  * @author Merlin Maggi, Dogukan Kabagoez, Florian Siegrist
@@ -9,6 +11,7 @@ public class Rennen
 	{
 		ParseFile startlist = new ParseFile("txt/startliste.txt");
 		ParseFile resultlist= new ParseFile("txt/messresultate.txt");
+		ArrayList<ParticipantResult> pr= new ArrayList<ParticipantResult>(300);
 		startlist.parse();
 		resultlist.parse();
 		Participant[] participants = startlist.getParticipants();

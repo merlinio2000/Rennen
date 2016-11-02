@@ -16,8 +16,8 @@ public class Result
 	 */
 	public Result(String[] s)
 	{
-		startNr = Integer.parseInt(s[0].trim());
-		finished = LocalTime.parse(s[1]);
+		this.startNr = Integer.parseInt(s[0].trim());
+		this.finished = LocalTime.parse(s[1]);
 	}
 	
 	/**
