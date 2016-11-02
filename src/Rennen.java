@@ -36,6 +36,9 @@ public class Rennen
 		women.sort((p1, p2) -> Long.compare(p1.getDifference(), p2.getDifference()));
 		prof.sort((p1, p2) -> Long.compare(p1.getDifference(), p2.getDifference()));
 		
+		//sort the list for namen.txt by name asc
+		pr.sort((p1, p2) -> p1.getName().compareTo(p2.getName()));
+		
 		/*for (ParticipantResult p: pr)
 		{
 			System.out.println(p.getStartNr() + " : " + p.getRStartNr() + " --- " + p.getCategory() + " --- " + p.getName() + " : " + p.getNameNr() + " --- " + p.getFinished());
